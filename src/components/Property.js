@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import axios from 'axios';
-/*
+
 function Property(){
 
 const[Property, setProperty ] = useState([]);
@@ -15,7 +15,7 @@ const loadPropertiesFromApi = ()=>{
         console.log(error);
     });
 }
- /*
+ 
  const addProperty =(Booking)=>{
   axios.post('http://http://localhost:8081/api/properties/{listing_Id}/Properties}').then((response)=> {
 
@@ -28,17 +28,15 @@ if(response.status === 200){
 console.log(error);
   });
 
- }*/
+ 
 
 
-   /* return(
+    return(
         <div>
 addProperty();
 loadPropertiesFromApi();
         </div>
     );
 }
-
+}
 export  default Property;
-
-*/
